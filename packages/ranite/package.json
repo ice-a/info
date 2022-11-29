@@ -1,0 +1,27 @@
+{
+  "name": "ranite",
+  "version": "0.0.1-alpha.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ran": "bin/ranite"
+  },
+  "scripts": {
+    "start": "tsup --watch",
+    "build": "tsup --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "picocolors": "^1.0.0",
+    "tsup": "^6.4.0"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "es-module-lexer": "^1.1.0",
+    "esbuild": "^0.15.14",
+    "fs-extra": "^10.1.0",
+    "resolve": "^1.22.1"
+  }
+}

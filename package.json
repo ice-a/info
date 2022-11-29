@@ -1,0 +1,22 @@
+{
+  "name": "ran",
+  "version": "1.0.0",
+  "description": "Monorepo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "clean": "sh ./bin/clean.sh",
+    "build": "sh ./bin/build.sh",
+    "test": "sh ./bin/test.sh"
+  },
+  "homepage": "https://chaxus.github.io/ran/",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "terser": "^5.15.0",
+    "typescript": "^4.8.3"
+  }
+}
