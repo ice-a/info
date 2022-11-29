@@ -10,7 +10,7 @@
     "build": "sh ./bin/build.sh",
     "test": "sh ./bin/test.sh"
   },
-  "homepage": "https://chaxus.github.io/ran/",
+  "homepage": "https://ice-a.github.io/info/",
   "keywords": [],
   "author": "",
   "license": "ISC",

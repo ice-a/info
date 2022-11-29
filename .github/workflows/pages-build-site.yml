@@ -51,6 +51,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.RAN_ACTIONS_TOKEN }}
+          github_token: ${{ secrets.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 }}
           exclude_assets: ''
           publish_dir: packages/docs/.vitepress/dist
